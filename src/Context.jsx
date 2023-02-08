@@ -16,8 +16,14 @@ const ContextProvider = ({ children }) => {
     }
 
     function filterData(event) {
+        const value = event.target.innerHTML;
+        if (value === "All") {
+            setFilteredData(digimonData);
+            return;
+        }
+
         const filtered = digimonData.filter(
-            (digimon) => digimon.level === `${event.target.innerHTML}`
+            (digimon) => digimon.level === `${value}`
         );
         setFilteredData(filtered);
     }

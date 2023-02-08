@@ -7,7 +7,7 @@ const Navbar = (props) => {
                 <img src="/public/images/logo.png" alt="" />
             </NavLink>
             <ul>
-                <li>All</li>
+                <li onClick={props.onclick}>All</li>
                 <li onClick={props.onclick}>Fresh</li>
                 <li onClick={props.onclick}>In Training</li>
                 <li onClick={props.onclick}>Rookie</li>
