@@ -9,7 +9,8 @@
     width: 100%;
     height: max-content;
     display: flex;
-    background: url(/public/images/bg.jpg) no-repeat center;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)),
+        url(/public/images/bg1.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -40,8 +41,7 @@ nav {
 
         li {
             font-size: 1.2rem;
-            font-weight: 700;
-            color: black;
+            font-weight: 800;
             text-decoration: none;
             list-style: none;
             margin: 0 20px;
@@ -64,39 +64,53 @@ nav {
     justify-content: center;
 
     h1 {
-        font-size: 4rem;
+        font-size: 6rem;
         font-weight: 900;
         letter-spacing: 2px;
-        margin-bottom: -5px;
+        color: #fca311;
+        -webkit-text-stroke-width: 3px;
+        -webkit-text-stroke-color: black;
     }
 
     h3 {
-        margin-bottom: 20px;
-        font-weight: 500;
+        width: 50rem;
+        font-weight: 700;
+        text-align: center;
+        margin: 14px 0 3rem 0;
     }
 
     a {
-        font-size: 16px;
-        font-weight: 800;
-        padding: 3px 12px;
-        border: 1px solid black;
-        border-radius: 4px;
         color: black;
+        font-size: 1.3rem;
+        font-weight: 700;
         text-decoration: none;
+        padding: 7px 20px;
+        border: 1px solid black;
+        border-radius: 6px;
+        background-color: transparent;
         cursor: pointer;
+        margin: 0 10px;
+    }
+
+    .btn-1 {
+        background-color: #00b4d8;
+    }
+
+    .btn-2 {
+        background-color: #ff5d8f;
     }
 }
 
 .Digimons {
     width: 100%;
     height: 100%;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     flex-direction: column;
 
     .grid-container {
         width: 100%;
-        min-height: 100vh;
         display: grid;
         grid-template-columns: auto auto auto auto auto auto;
         row-gap: 2rem;

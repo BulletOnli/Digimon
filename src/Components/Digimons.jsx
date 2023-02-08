@@ -3,7 +3,7 @@ import { useContext } from "react";
 import { Context } from "../Context";
 
 const Digimons = () => {
-    const { digimonData, filterData, filteredData } = useContext(Context);
+    const { filterData, filteredData } = useContext(Context);
 
     return (
         <div className="Digimons">
