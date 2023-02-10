@@ -1,15 +1,15 @@
 import { useContext } from "react";
 import { Context } from "../Context";
-import Navbar from "./Navbar";
 import NavFilter from "./NavFilter";
+import SearchBar from "./SearchBar";
 
 const Digimons = () => {
     const { filterData, filteredData } = useContext(Context);
 
     return (
         <div className="Digimons">
-            <Navbar onclick={filterData} />
             <NavFilter onclick={filterData} />
+            <SearchBar />
             <div className="grid-container">
                 {filteredData.map((data, index) => (
                     <div className="char-box" key={index}>

@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 const NavFilter = (props) => {
     return (
         <div className="NavFilter">
@@ -7,10 +9,9 @@ const NavFilter = (props) => {
             <p onClick={props.onclick}>Fresh</p>
             <p onClick={props.onclick}>In Training</p>
             <p onClick={props.onclick}>Rookie</p>
-            <form>
-                <input type="text" placeholder="Search" />
-                <i className="fa-solid fa-magnifying-glass"></i>
-            </form>
+            <NavLink to="/">
+                <img src="/public/images/logo.png" alt="" />
+            </NavLink>
             <p onClick={props.onclick}>Champion</p>
             <p onClick={props.onclick}>Ultimate</p>
             <p onClick={props.onclick}>Mega</p>
