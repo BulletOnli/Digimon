@@ -16,6 +16,7 @@ const ContextProvider = ({ children }) => {
         setFilteredData(data);
     }
 
+    // function for filtering data to use render temporarily in the Components
     function filterData(event) {
         const value = event.target.innerHTML;
         if (value === "All") {
@@ -29,6 +30,7 @@ const ContextProvider = ({ children }) => {
         setFilteredData(filtered);
     }
 
+    // to automatically set the first letter of input value to Capital Letter
     function setInputValue(e) {
         const value = e.target.value;
         const finalValue = value.charAt(0).toUpperCase() + value.slice(1);

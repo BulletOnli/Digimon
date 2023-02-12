@@ -14,9 +14,9 @@ const Landing = () => {
                 <Link to="/digimons" className="btn-1">
                     Digimon List
                 </Link>
-                <a href="#" className="btn-2">
+                <Link to="/about" className="btn-2">
                     Learn more
-                </a>
+                </Link>
             </span>
 
             <img className="char-img" src="/public/images/char.png" alt="" />

@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { Context } from "../Context";
-import NavFilter from "./NavFilter";
+import NavBar from "./NavBar";
 import SearchBar from "./SearchBar";
 
 const Digimons = () => {
@@ -8,15 +8,15 @@ const Digimons = () => {
 
     return (
         <div className="Digimons">
-            <NavFilter onclick={filterData} />
+            <NavBar onclick={filterData} />
             <SearchBar />
             <div className="grid-container">
                 {filteredData.map((data, index) => (
                     <div className="char-box" key={index}>
                         <img src={data.img} alt="Digimon" />
                         <span>
-                            <p>Name: {data.name}</p>
-                            <p>Level: {data.level}</p>
+                            <h3>{data.name}</h3>
+                            <p>--- {data.level} ---</p>
                         </span>
                     </div>
                 ))}
