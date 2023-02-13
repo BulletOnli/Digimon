@@ -57,6 +57,8 @@
     justify-content: center;
     position: relative;
     overflow: hidden;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
 
     h1 {
         font-size: 6rem;
@@ -181,7 +183,7 @@
 
         .char-box {
             width: 200px;
-            height: 220px;
+            height: 210px;
             border: none;
             border-radius: 12px;
             box-shadow: 0 0 10px rgba($color: #000000, $alpha: 0.6);
@@ -189,10 +191,9 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            padding: 1rem;
+            padding: 10px;
 
             img {
-                // width: 165px;
                 width: 100%;
                 height: 130px;
                 border-radius: 9px;
@@ -264,11 +265,13 @@
         }
 
         h3 {
-            font-size: 21px;
+            width: 85%;
+            font-size: 20px;
             font-weight: 400;
             margin-bottom: 1rem;
             text-indent: 2rem;
             z-index: 1;
+            text-align: justify;
         }
 
         img {
@@ -276,5 +279,11 @@
             bottom: 0;
             // opacity: 0.5;
         }
+    }
+
+    footer {
+        position: absolute;
+        bottom: 10px;
+        font-weight: 700;
     }
 }

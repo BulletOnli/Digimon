@@ -5,10 +5,10 @@ const Landing = () => {
         <div className="Landing">
             <h1>Digital Monsters</h1>
             <h3>
-                "Enter the digital world with Digimon. Follow the journey of
-                human children as they team up with their digital monster
-                companions and explore the vast, interconnected universe known
-                as the "Digital World."
+                "Enter the digital world with <strong>Digimon</strong>. Follow
+                the journey of human children as they team up with their digital
+                monster companions and explore the vast, interconnected universe
+                known as the <strong>"Digital World"</strong>.
             </h3>
             <span>
                 <Link to="/digimons" className="btn-1">
