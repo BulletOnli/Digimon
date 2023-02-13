@@ -4,7 +4,7 @@ const About = () => {
     return (
         <div className="About">
             <NavLink to="/">
-                <img src="/public/images/logo.png" alt="" />
+                <img src="/images/logo.png" alt="logo" />
             </NavLink>
             <main>
                 <NavLink to="/">
