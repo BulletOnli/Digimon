@@ -1,11 +1,12 @@
 import { NavLink } from "react-router-dom";
 import groupImg from "/images/grouppic.png";
+import logo from "/images/logo.png";
 
 const About = () => {
     return (
         <div className="About">
             <NavLink to="/Digimon">
-                <img src="images/logo.png" alt="logo" />
+                <img src={logo} alt="logo" />
             </NavLink>
             <main>
                 <NavLink to="/Digimon">
