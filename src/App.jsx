@@ -8,7 +8,7 @@ function App() {
     return (
         <Router>
             <Routes>
-                <Route path="/Digimon" element={<Landing />} />
+                <Route path="/" element={<Landing />} />
                 <Route path="/digimons" element={<Digimons />} />
                 <Route path="/about" element={<About />} />
             </Routes>

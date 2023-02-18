@@ -4,7 +4,7 @@ const About = () => {
     return (
         <div className="About">
             <NavLink to="/">
-                <img src="/images/logo.png" alt="logo" />
+                <img src="images/logo.png" alt="logo" />
             </NavLink>
             <main>
                 <NavLink to="/">
@@ -27,7 +27,7 @@ const About = () => {
                     as "digivolutions," which grant them new powers and
                     abilities.
                 </h3>
-                <img src="/images/grouppic.png" alt="" />
+                <img src="images/grouppic.png" alt="" />
             </main>
             <footer>
                 <small>Website created by Bullet</small>
