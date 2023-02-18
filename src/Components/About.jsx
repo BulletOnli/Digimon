@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import groupImg from "/images/grouppic.png";
 
 const About = () => {
     return (
@@ -27,7 +28,7 @@ const About = () => {
                     as "digivolutions," which grant them new powers and
                     abilities.
                 </h3>
-                <img src="/images/grouppic.png" alt="" />
+                <img src={groupImg} alt="" />
             </main>
             <footer>
                 <small>Website created by Bullet</small>
