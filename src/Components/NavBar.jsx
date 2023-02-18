@@ -12,7 +12,7 @@ const NavBar = (props) => {
             <p onClick={props.onclick}>All</p>
             <p onClick={props.onclick}>Fresh</p>
             <p onClick={props.onclick}>In Training</p>
-            <img className="logo" src="/images/logo.png" alt="" />
+            <img className="logo" src="images/logo.png" alt="" />
             <p onClick={props.onclick}>Rookie</p>
             <p onClick={props.onclick}>Champion</p>
             <p onClick={props.onclick}>Ultimate</p>
