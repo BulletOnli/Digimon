@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 const NavBar = (props) => {
     return (
         <div className="NavBar">
-            <NavLink to="/">
+            <NavLink to="/Digimon">
                 <i class="fa-solid fa-arrow-left"></i>
             </NavLink>
             <p onClick={() => location.reload()}>

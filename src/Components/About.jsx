@@ -3,11 +3,11 @@ import { NavLink } from "react-router-dom";
 const About = () => {
     return (
         <div className="About">
-            <NavLink to="/">
+            <NavLink to="/Digimon">
                 <img src="images/logo.png" alt="logo" />
             </NavLink>
             <main>
-                <NavLink to="/">
+                <NavLink to="/Digimon">
                     <i class="fa-solid fa-arrow-left"></i>
                 </NavLink>
                 <h3>
