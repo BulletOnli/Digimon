@@ -27,7 +27,7 @@ const About = () => {
                     as "digivolutions," which grant them new powers and
                     abilities.
                 </h3>
-                <img src="images/grouppic.png" alt="" />
+                <img src="/images/grouppic.png" alt="" />
             </main>
             <footer>
                 <small>Website created by Bullet</small>

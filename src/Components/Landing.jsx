@@ -19,8 +19,8 @@ const Landing = () => {
                 </Link>
             </span>
 
-            <img className="char-img" src="images/char.png" alt="" />
-            <img className="digimon1" src="images/digimon1.png" alt="" />
+            <img className="char-img" src="/images/char.png" alt="" />
+            <img className="digimon1" src="/images/digimon1.png" alt="" />
         </div>
     );
 };
